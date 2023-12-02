@@ -8,13 +8,13 @@ content-Type: application/json
 }
 
 ### Find a particular user
-GET http://localhost:3000/auth/123
+GET http://localhost:3000/auth/1
 
 ### Find all users by email
 GET http://localhost:3000/auth?email=user@mail.com
 
 ### Remove user
-DELETE http://localhost:3000/auth/3
+DELETE http://localhost:3000/auth/5
 
 ### Update user
 PATCH http://localhost:3000/auth/1
