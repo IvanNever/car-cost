@@ -3,9 +3,25 @@ POST http://localhost:3000/auth/signup
 content-Type: application/json
 
 {
-  "email": "user123@mail.com",
+  "email": "new@mail.com",
   "password": "test123122"
 }
+
+### SignIn
+POST http://localhost:3000/auth/signin
+content-Type: application/json
+
+{
+  "email": "new@mail.com",
+  "password": "test123122"
+}
+
+### SignOut
+POST http://localhost:3000/auth/signout
+
+### Get current user
+GET http://localhost:3000/auth/current
+
 
 ### Find a particular user
 GET http://localhost:3000/auth/1
