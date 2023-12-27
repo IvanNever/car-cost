@@ -3,8 +3,8 @@ POST http://localhost:3000/auth/signup
 content-Type: application/json
 
 {
-  "email": "new@mail.com",
-  "password": "test123122"
+  "email": "user@mail.com",
+  "password": "pass12345"
 }
 
 ### SignIn
@@ -12,8 +12,8 @@ POST http://localhost:3000/auth/signin
 content-Type: application/json
 
 {
-  "email": "new@mail.com",
-  "password": "test123122"
+  "email": "user@mail.com",
+  "password": "pass12345"
 }
 
 ### SignOut
